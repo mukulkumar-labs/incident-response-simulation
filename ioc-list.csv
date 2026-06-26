@@ -1,0 +1,10 @@
+Type,Value,Context,MITRE Technique
+IP,192.168.149.129,Kali Linux C2 server,T1071.001
+File,invoice (1).exe,Meterpreter reverse shell payload,T1566.001
+Path,C:\Users\cyber\Downloads\invoice (1).exe,Execution location,T1204.002
+Port,4444,Reverse shell listener port,T1571
+MD5,90F4CEDCFCEAFF8DED55FCA5313A1A43,Payload file hash,T1027
+SHA256,181E1ADCE252CA605CA78E1F70FBDF744278B672657BE5DCA74F22294A29E48D,Payload file hash,T1027
+PID,6212,Malicious process at execution time,T1059
+User,DESKTOP-0Q0BDCB\mucool,Compromised user account,T1078
+ParentProcess,explorer.exe,User manually ran payload,T1204.002
