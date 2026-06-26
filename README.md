@@ -174,6 +174,34 @@ Sysmon rule to detect outbound connections on port 4444:
 
 ---
 
+## Screenshots
+
+### Phase 1 — Lab Setup
+![Sysmon Config Download](screenshots/sysmon-config-file-download.png)
+![Sysmon Installation](screenshots/sysmon-installation.png)
+
+### Phase 2 — Attack Simulation
+![Payload Creation](screenshots/creating-payload.png)
+![Payload on Server](screenshots/creating-payload-02.png)
+![Metasploit Listener](screenshots/metasploit-listener-start.png)
+![Payload Download](screenshots/payload-download.png)
+![Session Opened](screenshots/session-opened.png)
+
+### Phase 3 — Detection & Log Collection
+![Wireshark Start](screenshots/wireshark-start.png)
+![PCAP Saved](screenshots/pcap-saved.png)
+![Filtered Packets - HTTP](screenshots/filtered-packets.png)
+![Filtered Packets - C2 Port 4444](screenshots/filtered-packets-02.png)
+![Sysmon Event ID 1](screenshots/sysmon-logs.png)
+![Sysmon Event ID 3](screenshots/network-connection-logs.png)
+
+### Phase 4 — Triage
+![IOC List](screenshots/ioc-list.png)
+
+### Phase 5 — Containment
+![Process Kill + File Delete](screenshots/containment.png)
+![Network Isolation](screenshots/network-isolation.png)
+
 ## References
 
 - [MITRE ATT&CK Framework](https://attack.mitre.org)
