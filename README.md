@@ -211,5 +211,4 @@ Sysmon rule to detect outbound connections on port 4444:
 
 ---
 
-*Project by Mukul Kumar
-*GitHub: [github.com/mukulkumar-labs](https://github.com/mukulkumar-labs)*
+*Project by Mukul Kumar | GitHub: [github.com/mukulkumar-labs](https://github.com/mukulkumar-labs)*
